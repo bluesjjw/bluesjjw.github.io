@@ -1,33 +1,49 @@
-Jekyll bootstrap is a theme for jekyll which uses the [twitter bootstrap css             framework](https://github.com/twitter/bootstrap).
-The advantage of jekyll is that it is self hosted (or hosted on github) and that you can write in markdown on a text editor and just git push new posts to a server which         produces html files. The advantage of this theme is so that you can start blogging       almost right away without having to worry about making a theme.
 
-###Setting up
-To start you own blog, simply `git clone` the [repository on github](https://github.com/ nhoss2/jekyll-bootstrap). You could also press the "fork" button on github.
+# Vitae
 
-    git clone git://github.com/nhoss2/jekyll-bootstrap.git
+[![Build Status](https://secure.travis-ci.org/biomadeira/vitae.png?branch=gh-pages)](http://travis-ci.org/biomadeira/vitae)
 
-If you want to have your blog on github, make sure you change to the `gh-pages` branch.
+Personal homepage (curriculum vitae or resume) based on [João's](https://github.com/joaomoreno/resume).
+Vitae is built with [skeleton](http://getskeleton.com/), powered by [Jekyll](http://jekyllrb.com/) and freely
+hosted in [Github pages](https://pages.github.com/).
 
-    git checkout gh-pages
 
-Then you will need to edit the `_config.yml` file at the root of repository.
+## View the live demo
 
-To add your own posts, add a file to the `_posts` directory which has the name `year-month-day-title.md`. Note - the file does not have to be markdown.
+[Vitae Live Demo](https://biomadeira.github.io/vitae)
 
-To publish the post, just `git push` it to your own github repo and your set!
 
-###Things to change on `_config.yml`
-There is a config file at the root called `_config.yml`. By Default it looks like:
+## Screenshots
 
-    permalink: /:year/:title/
-    paginate: 10
-    exclude:
-    name: Jekyll Bootstrap
-    baseurl: /jekyll-bootstrap/
+![resume page](https://raw.githubusercontent.com/biomadeira/vitae/gh-pages/assets/images/vitae_screen.png)
 
-You will need to change the `name` and `baseurl` fields. The others are optional.
-The `baseurl` field is used for the css files and pagination, if you are hosting the     blog on github, you will need to change it to your repository name unless your           repository is the same name as your github user name, which means you will need to have  no value for `baseurl`.
 
-For more information on Jekyll, visit their [wiki on github](https://github.com/mojombo/ jekyll/wiki).
+## How to use it
 
-For more information on github pages: [http://pages.github.com](http://pages.github.com).
+Simply clone/fork this repository, and then run `jekyll serve` inside the directory.
+Edit the site attributes in *_config.yml* and edit the various entries in *_includes/*.
+
+## Issues and contributing 
+
+I have tested this install with Ruby v2.2.2p95 (Mac OS RVM) and Jekyll v3.0.0. If you run into any problems please log them on the [issue tracker](https://github.com/biomadeira/vitae/issues).
+
+Feel free pull-request your patches and fixes.
+
+
+## Thanks 
+
+A lot of the work had been already done by the Joao. Many thanks to him :smile:
+
+Profile picture from [pexels](https://www.pexels.com/photo/portrait-black-african-ethnicity-person-9494/).
+
+
+## Copyright & License
+
+Copyright (C) 2015 - Released under the MIT License.
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
