@@ -17,7 +17,7 @@
     <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
 
-    <link rel="shortcut icon" href="{{ site.baseurl }}static/img/favicon.ico">
+    <!--link rel="shortcut icon" href="{{ site.baseurl }}static/img/favicon.ico"-->
     <!-- <link rel="apple-touch-icon" href="static/img/me-icon-57.png"> -->
     <!-- <link rel="apple-touch-icon" sizes="72x72" href="static/img/me-icon-72.png"> -->
     <!-- <link rel="apple-touch-icon" sizes="114x114" href="static/img/me-icon-114.png"> -->
@@ -26,42 +26,48 @@
 <div class="container">
     <header class="four columns">
         <img src="{{ site.baseurl }}static/img/profile.jpg" class="me">
-        <h3>{{ site.name }}</h3>
+    </header>
+    <header class="twelve columns clearfix">    
+        <h2>{{ site.name }}</h2>
+        <h4>Department of Computer Science and Technology</h4>
+        <h4>Peking University</h4>
+        <p></p>
         <p>
-            <a href="{{ site.tel_full }}">Tel:{{ site.tel }}</a>
-        </p>
-        <address>
-            <a href="{{ site.google_maps }}">
-                Address:<br/>
-		{{ site.address }}<br/>
-                {{ site.city }}<br/>
-                {{ site.country }}<br/>
-                {{ site.postcode }}
-            </a>
-        </address>
-        <p>
-            <a href="{{ site.website_full }}">{{ site.website }}</a><br/>
+            <em>Address:</em> Department of Computer Science, Peking University
         </p>
         <p>
-            <a href="{{ site.email_full }}">Email:{{ site.email }}</a><br/>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Beijing, China 100871
+        </p>
+        <p>
+            <em>Tel:</em> {{ site.tel }}</a>
+        </p>
+        <p>
+            <em>Office:</em> 1601, Science BLK 1</a>
+        </p>
+        <p>
+            Email:{{ site.email }}</a><br/>
             <a href="https://github.com/{{ site.github }}"><i class="fa fa-github"></i> Github</a>
             <!-- <a href="https://twitter.com/{{ site.twitter }}"><i class="fa fa-twitter"></i> Twitter</a> -->
-        </p>
+        </p>        
     </header>
+</div>
+<div class="container">
     <div class="twelve columns clearfix">
 
         {{ content }}
 
     <footer class="thirteen columns">
-        <p>© All rights reserved. Powered by <a href="http://jekyllrb.com/">Jekyll</a> and
-            <a href="https://www.github.com/biomadeira/vitae">vitae</a> with ♥</p>
+        <p>© All rights reserved. Powered by Jiawei Jiang</p>
     </footer>
     </div>
-</div>
+</div>>
+
+<!--
 <a href="https://github.com/biomadeira/vitae">
     <img style="position: absolute; top: 0; right: 0; border: 0;"
          src="https://camo.githubusercontent.com/e7bbb0521b397edbd5fe43e7f760759336b5e05f/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f677265656e5f3030373230302e706e67"
          alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_green_007200.png"></a>
+         -->
 
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
