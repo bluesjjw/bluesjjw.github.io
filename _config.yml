@@ -16,19 +16,19 @@ author: Fábio Madeira
 baseurl: "/"
 title: Jiawei Jiang's Resume
 name: Jiawei Jiang
-email: jiawei.jiang@inf.ethz.ch
-email_full: mailto:jiawei.jiang@inf.ethz.ch
+email: jiawei.jiang@whu.edu.cn
+email_full: mailto:jiawei.jiang@whu.edu.cn
 website: bluesjjw.github.io
 website_full: https://bluesjjw.github.io/
 github: bluesjjw
 twitter: twitter
 tel: +41 044 632 3211
 tel_full: tel:+41 044 632 3211
-google_maps: 'https://www.google.com/maps/place/ETH+Department+of+Computer+Science'
-address: Universitatstrasse 6
-postcode: 8092
-city: Zürich
-country: Switerland
+google_maps: 'https://www.google.com/maps/place/Wuhan+University'
+address: No. 299, Bayi Road
+postcode: 430072
+city: Wuhan
+country: China
 google_analytics: UA-69300817-1
 
 # needed for travis-ci build
